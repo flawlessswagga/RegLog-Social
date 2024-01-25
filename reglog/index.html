@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>Создать аккаунт</h1>
+                <span>используя ваш e-mail</span>
+                <input type="text" placeholder="Name" />
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <button>СОЗДАТЬ</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>Войти</h1>
+                
+                <span>если вы создали аккаунт</span>
+                <input type="email" placeholder="Email" />
+                <input type="password" placeholder="Password" />
+                <button>ВОЙТИ</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Приветик!</h1>
+                    <p>Если ты уже создал аккаунт, то просто войди в него</p>
+                    <button class="ghost" id="signIn">ВОЙТИ</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Впервые у нас?</h1>
+                    <p>Зарегистрируйся и начни путешествие вместе с нами</p>
+                    <button class="ghost" id="signUp">РЕГИСТРАЦИЯ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
